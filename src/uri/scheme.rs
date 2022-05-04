@@ -4,4 +4,5 @@ impl<'a> Scheme<'a> {
     pub fn as_str(self) -> &'a str {
         self.0
     }
+    
 }
